@@ -1,0 +1,45 @@
+[gd_scene load_steps=5 format=3 id="player_scene"]
+
+[ext_resource type="Script" path="res://scripts/player/player_controller.gd" id="1_player_script"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_1"]
+radius = 0.3
+height = 1.5
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_1"]
+radius = 0.3
+height = 1.5
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_res"]
+radius = 3.0
+
+[node name="Player" type="CharacterBody3D"]
+collision_layer = 1
+collision_mask = 30
+script = ExtResource("1_player_script")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.75, 0)
+shape = SubResource("CapsuleShape3D_1")
+
+[node name="CharacterMesh" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.75, 0)
+mesh = SubResource("CapsuleMesh_1")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4, 0)
+current = true
+fov = 75.0
+
+[node name="InteractionRay" type="RayCast3D" parent="Camera3D"]
+target_position = Vector3(0, 0, -3)
+collision_mask = 30
+
+[node name="WeaponRaycast" type="RayCast3D" parent="Camera3D"]
+target_position = Vector3(0, 0, -50)
+collision_mask = 30
+
+[node name="ResonanceArea" type="Area3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ResonanceArea"]
+shape = SubResource("SphereShape3D_res")

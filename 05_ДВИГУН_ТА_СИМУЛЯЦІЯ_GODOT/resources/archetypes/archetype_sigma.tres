@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ArchetypeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/archetype_data.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+archetype_type = 1
+archetype_name = "Биомеханический Актив (Класс Σ – Роан)"
+bone_density = 2.6
+muscle_strength_mult = 1.4
+max_carry_weight_kg = 30.0
+atf_regen_mult = 0.7
+rune_affinity = 0.5
+gravity_debuff_immunity = true

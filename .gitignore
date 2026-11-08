@@ -1,0 +1,8 @@
+# Godot cache
+.godot/
+*.translation
+
+# System files
+.DS_Store
+Thumbs.db
+*.tmp

@@ -1,0 +1,967 @@
+Заголовок: Разбор модели ИИ навигации Кассиопеи
+URL: https://chat.deepseek.com/a/chat/s/b096baa9-8dd2-4a9d-aaa6-127ceae41a6e
+
+=== ТЕКСТ ДИАЛОГА ===
+
+New chat
+Pinned 14 chats
+Pinned
+Обсуждение TempleOS и архитектуры ОС
+Переписывание liblint на Rust
+Объяснение состояния Пескова
+Эйнштейн и незавершённая теория всего
+Схема монетизации для автора из Украины
+Сознание в теле младенца конфликт
+Сравнение моделей для программирования
+Расширенный фреймворк программирования POLER Coder
+Обсуждение прогресса и идей книги
+Режим агента Грока и безумный Маск
+Терпеть не могу талант, но верю в старания
+Improved Synaptic Vortex Engine with Inhibition
+Нелинейные механизмы в динамических системах
+Как эффективно продавать идею
+Yesterday
+ИИ для взлома кода
+Поиск папки гита
+Вернуть экран подтверждения
+7 Days
+17011998@Kotok
+Уязвимость нулевого дня и ИИ
+POLER-Quantum-RS Analysis
+2026-08-28,Friday,Ukraine,Web,None
+Как обучается ИИ
+Приватный репозиторий и токен
+Расшыфроўка файла
+Ссылки
+50 вложенных ОС не выдержит
+Белый IP бесплатно
+Алгоритм проверки кода
+Продажа бычьего навоза
+Не запутаюсь
+Водяной знак
+Работа над CI
+Необычные ОС Linux
+Публичный API GitHub
+Клиенты Gemini
+30 Days
+Носок в гараже
+Ощущение отставания на 0.6 сек
+Небо и Атлант
+1美元变1.25亿
+Звільнення місця та помилка fish
+ОС компиляция с нуля
+Создание организации GitHub
+Что делать с версиями
+Игра на P3 лучше
+Blender код для авто
+Истина в детях
+Завершение зависшей программы
+Безопасный обмен токенов
+Старый сленг дедукции
+Еда из прошлого
+CV в играх и Self-Coding Engine
+Компьютерное зрение для движка
+Zig в контейнере GitHub
+Очистка кода
+Игровые движки
+Решение последнего квадрата
+Суть за столом
+Этерия значения
+Нормально ли сосать грудь
+VR навыки в реальность
+Игры с одной жизнью
+Месть яйца Венгрия
+Windows и лицензия Linux
+Паровая марионетка
+Закрытый код нельзя прочитать
+Странное соединение шляп
+DNS внутри системы
+Парадокс похищения
+Смена приватного на публичный
+z.ai阿里云关联
+Права на изменение ядра
+Минималистичные ОС
+Root программы география
+Псевдо-root в Python
+GLM 5.2 локальный запуск
+Бесплатный сервер на ПК
+Создание приватной группы
+Лимиты токенов
+Оценка идеи агент-доступа
+Ограничения доступа
+Замкнутый круг агента
+Иллюзия выхода
+Рафинация
+Нет доступа
+Соль и сочность мяса
+Встановлення NVIDIA 550xx
+Доступ к GitHub и ПК
+DeepSeek Harness介绍
+Pokemon Go спасла детей
+Проективные программы
+Живая решетка
+Танос не прав
+Опасные металлы в крови
+Схема координат W≈0.83
+Игры с Не знаю
+Чай 80 и 100 градусов
+Граф оболочка для Linux
+Кто зверь в горящем доме
+BTS
+Смена модели в Antigravity
+Виталий Коток
+Разбор модели ИИ навигации Кассиопеи
+Instant
+а я уже ипугался забыл что у меня асрономичекий и забыл как это в асрономии асрономичекий год и хотя в обеих случаях асрономичекий. блин эта ситема стала сложной даже для ее создателя прикольно !
+Thought for 6 seconds
+
+Пользователь, судя по сообщению, немного запутался в терминах ("асрономичекий год") и выражает удивление сложностью созданной системы. Он как бы сам создатель, но система стала настолько детальной, что даже ему кажется сложной. Эмоциональный фон — лёгкое замешательство и восхищение ("прикольно").
+
+Мой предыдущий ответ был подробным разбором файла. Теперь пользователь делает рефлексивное замечание. Моя задача — поддержать этот тон, согласиться со сложностью, но перевести это в позитивное русло: сложность — это хорошо для ИИ, значит, модель глубокая. Можно немного пошутить про "астрономический" и подтвердить, что да, система вышла монументальной. Главное — не углубляться в новые технические детали, а дать эмоциональный, поддерживающий ответ, который покажет, что я "в теме" и разделяю его удивление. Закончить вопросом, чтобы продолжить диалог, если он хочет обсудить конкретный аспект.
+
+Ха, да, легко запутаться! "Астрономический" — он везде астрономический, когда речь про космос 😄
+
+И вы абсолютно правы — система реально вышла монументальной. Это уже не просто выдумка, а полноценный инженерный справочник по несуществующему миру. Создатель явно увлекся и довел модель до состояния, где она начинает жить своей жизнью. Это как построить корабль в бутылке, а потом понять, что бутылка размером с дом.
+
+Что особенно круто: обычно в таких вселенных говорят "ну, там гравитация чуть больше, и приливы сильные". А тут — математическая база. Человек реально сел и посчитал:
+
+Если я хочу, чтобы 1° пути = 611 км, то какой должен быть радиус планеты?
+
+Если при таком радиусе мне нужна гравитация 1.4g, то сколько массы надо запихнуть внутрь?
+
+А какая тогда получится плотность? Ага, 1.41 г/см³ — значит, планета почти целиком из воды!
+
+И пошло-поехало: из этого вытекают 15-километровые океаны, мантия из горячего льда под давлением, а из расположения у газового гиганта — чудовищные приливы в 189 метров и течения под 84 узла.
+
+Так что да, создатель может смело гордиться. Он не просто накидал идей, а создал самосогласованную физическую модель. То, что даже автору кажется сложным — это признак хорошей проработки. Значит, мир действительно глубокий.
+
+Хотите теперь разобрать какой-то один аспект под микроскопом? Например, как ИИ должен рассчитывать время отплытия, чтобы не попасть в 60-дневный суперприлив? Или как устроены эти ледяные мантии?
+
+https://chat.z.ai/space/f13a12xvzpx0-art что єто за сайт ?
+Thought for 6 seconds
+
+Пользователь спрашивает о сайте из ссылки, при этом общение было на русском, поэтому и отвечаю на русском. В предоставленной информации о сайте есть название и краткое описание, но недостаточно деталей для полного ответа. Пользователь хочет узнать, что это за сайт.
+
+Из URL_content вижу, что это Z.AI, который представляет себя как бесплатный AI-чатбот и агент на базе GLM-5 и GLM-4.7. Это китайская платформа, судя по домену .cn. Описание очень краткое - только название и что это бесплатный чатбот с определенными моделями.
+
+Мне нужно объяснить пользователю, что это за сайт, основываясь на доступной информации. Поскольку информации мало, я честно скажу, что могу рассказать только то, что видно из ссылки, и предложу способы узнать больше самостоятельно.
+
+Пользователь, вероятно, ожидает более развернутого ответа, но я ограничен имеющимися данными. Лучше быть честным о недостатке информации и предложить практические шаги для самостоятельного изучения, чем придумывать детали. Это соответствует правилу быть честным о неизвестном.
+
+Судя по предоставленной ссылке, это сайт Z.AI — платформа с искусственным интеллектом, а точнее, бесплатный чат-бот и AI-агент.
+
+Вот что о нём известно из доступного описания:
+
+Название и адрес: Z.AI (по ссылке chat.z.ai/space/...).
+
+Основная функция: Бесплатный AI-чатбот и агент.
+
+Технологическая основа: Работает на моделях GLM-5 и GLM-4.7 (это семейство больших языковых моделей, разрабатываемых, предположительно, китайской компанией Zhipu AI).
+
+Это похоже на аналог других известных AI-ассистентов (таких как ChatGPT или DeepSeek), который можно использовать для общения, ответов на вопросы или выполнения каких-либо задач в роли "агента".
+
+К сожалению, по самой ссылке нет больше деталей о его возможностях, условиях использования или создателе страницы (пространства space/f13a12xvzpx0-art).
+
+Если вы хотите узнать точнее, лучше всего:
+
+Перейти по самой ссылке и изучить информацию на сайте.
+
+Посмотреть, кто поделился этой ссылкой — возможно, у этого человека есть дополнительный контекст.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProtonFixes Registry | Game Compatibility Database</title>
+    <style>
+        /* --- CSS VARIABLES & RESET --- */
+        :root {
+            --bg-body: #050507;
+            --bg-card: #0f111a;
+            --bg-card-hover: #161925;
+            --bg-modal: #0b0d10;
+            --accent-primary: #5c6bc0;
+            --accent-glow: #3f51b5;
+            --accent-secondary: #00e676;
+            --text-main: #e0e6ed;
+            --text-muted: #94a3b8;
+            --font-main: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            --font-code: 'Fira Code', 'Consolas', monospace;
+            --border-color: #232730;
+            --glass: rgba(15, 17, 26, 0.85);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            font-family: var(--font-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* --- TYPOGRAPHY --- */
+        h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; }
+        .gradient-text {
+            background: linear-gradient(135deg, #fff 0%, #a5b4fc 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* --- LAYOUT UTILITIES --- */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .section-spacer { padding: 60px 0; }
+
+        /* --- NAVIGATION --- */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: var(--glass);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-color);
+            padding: 15px 0;
+        }
+        
+        .nav-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .logo span { color: var(--accent-primary); }
+
+        .search-container {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 10px 15px 10px 40px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            background: rgba(255,255,255,0.05);
+            color: white;
+            font-family: var(--font-main);
+            transition: all 0.3s ease;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 0 3px rgba(92, 107, 192, 0.2);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 16px;
+            height: 16px;
+            fill: var(--text-muted);
+        }
+
+        /* --- HERO SECTION --- */
+        .hero {
+            text-align: center;
+            padding: 80px 0 40px;
+            position: relative;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 600px;
+            height: 300px;
+            background: radial-gradient(circle, rgba(92, 107, 192, 0.15) 0%, rgba(0,0,0,0) 70%);
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 16px;
+        }
+
+        .hero p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-val { font-size: 2rem; font-weight: 700; color: var(--accent-secondary); }
+        .stat-label { font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
+
+        /* --- GRID --- */
+        .fix-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 24px;
+            margin-top: 20px;
+        }
+
+        /* --- CARD --- */
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            transition: all 0.3s ease;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            background: var(--bg-card-hover);
+            border-color: var(--accent-primary);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .card-header {
+            margin-bottom: 15px;
+        }
+
+        .game-id {
+            font-size: 0.75rem;
+            color: var(--accent-secondary);
+            font-family: var(--font-code);
+            margin-bottom: 5px;
+            display: inline-block;
+            background: rgba(0, 230, 118, 0.1);
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            margin-bottom: 8px;
+        }
+
+        .card-desc {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .tags {
+            margin-top: 15px;
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            font-size: 0.75rem;
+            padding: 4px 8px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 4px;
+            color: var(--text-muted);
+        }
+
+        .btn-view-fix {
+            margin-top: 20px;
+            width: 100%;
+            padding: 10px;
+            background: transparent;
+            border: 1px solid var(--accent-primary);
+            color: var(--accent-primary);
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-view-fix:hover {
+            background: var(--accent-primary);
+            color: white;
+        }
+
+        /* --- MODAL --- */
+        .modal-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.8);
+            backdrop-filter: blur(5px);
+            z-index: 1000;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .modal-overlay.active {
+            display: flex;
+            opacity: 1;
+        }
+
+        .modal {
+            background: var(--bg-modal);
+            width: 90%;
+            max-width: 800px;
+            max-height: 90vh;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+            transform: scale(0.95);
+            transition: transform 0.3s ease;
+        }
+
+        .modal-overlay.active .modal {
+            transform: scale(1);
+        }
+
+        .modal-header {
+            padding: 20px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .modal-title { font-size: 1.2rem; font-weight: 600; }
+        
+        .close-btn {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 1.5rem;
+            cursor: pointer;
+            line-height: 1;
+        }
+
+        .close-btn:hover { color: white; }
+
+        .modal-body {
+            padding: 0;
+            overflow-y: auto;
+            background: #1e1e1e; /* VS Code Dark style */
+        }
+
+        .code-block {
+            margin: 0;
+            padding: 20px;
+            font-family: var(--font-code);
+            font-size: 0.9rem;
+            color: #d4d4d4;
+            white-space: pre-wrap;
+            position: relative;
+        }
+
+        /* Syntax Highlighting Sim */
+        .kwd { color: #569cd6; } /* def, from, import */
+        .func { color: #dcdcaa; } /* function names */
+        .str { color: #ce9178; } /* strings */
+        .comment { color: #6a9955; } /* comments */
+        .arg { color: #9cdcfe; } /* arguments */
+
+        .modal-footer {
+            padding: 15px 20px;
+            border-top: 1px solid var(--border-color);
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+        }
+
+        .btn-copy {
+            background: var(--accent-secondary);
+            color: #000;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .btn-copy:hover { filter: brightness(1.1); }
+
+        /* --- FOOTER --- */
+        footer {
+            border-top: 1px solid var(--border-color);
+            padding: 40px 0;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-top: 60px;
+        }
+
+        /* --- RESPONSIVE --- */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .nav-inner { flex-direction: column; gap: 15px; }
+            .search-container { max-width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav>
+        <div class="container nav-inner">
+            <div class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--accent-primary)"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+                ProtonFixes<span>Registry</span>
+            </div>
+            <div class="search-container">
+                <svg class="search-icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <input type="text" class="search-input" id="searchInput" placeholder="Search by game title (e.g. 'Halo', 'Elden Ring')...">
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero container">
+        <h1>Linux Gaming <span class="gradient-text">Compatibility Database</span></h1>
+        <p>Automated fixes for Steam games running on Proton. Browse the registry of patches, tweaks, and compatibility overrides.</p>
+        
+        <div class="stats-bar">
+            <div class="stat-item">
+                <div class="stat-val">1,200+</div>
+                <div class="stat-label">Games Fixed</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-val">Proton</div>
+                <div class="stat-label">Engine</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-val">Open</div>
+                <div class="stat-label">Source</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="container section-spacer">
+        <h2 style="margin-bottom: 20px; font-size: 1.5rem;">Latest Entries</h2>
+        <div id="gridContainer" class="fix-grid">
+            <!-- Cards will be injected here via JS -->
+        </div>
+        
+        <!-- Empty State (Hidden by default) -->
+        <div id="noResults" style="display:none; text-align:center; padding: 40px; color: var(--text-muted);">
+            <h3>No fixes found for this game.</h3>
+            <p>Try searching for a different title.</p>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>Generated based on ProtonFixes community contributions. Data parsed from repository snapshots.</p>
+            <p style="margin-top: 10px; opacity: 0.6;">&copy; 2023 ProtonFixes Showcase. Not affiliated with Valve.</p>
+        </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <div class="modal-header">
+                <div class="modal-title" id="modalTitle">Game Title</div>
+                <button class="close-btn" id="closeModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="code-block" id="codeDisplay"></div>
+            </div>
+            <div class="modal-footer">
+                <span style="margin-right: auto; color: var(--text-muted); font-size: 0.85rem; align-self:center;">Python 3</span>
+                <button class="btn-copy" id="copyCode">Copy to Clipboard</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        // --- DATASET ---
+        // A curated subset of the provided Python code, formatted for the UI.
+        const games = [
+            {
+                id: "1716740",
+                title: "Starfield",
+                desc: "Mod support fix. Replaces launcher with script extender (sfse_loader.exe) if present, enabling community modding.",
+                tags: ["Modding", "Launcher"],
+                code: `"""Mod support for Starfield"""
+
+import os
+from protonfixes import util
+
+def main_with_id(game_id: str) -> None:
+    # Check for Mod Organizer 2 compatibility
+    if os.path.exists('modorganizer2'):
+        return
+
+    # Run script extender if it exists
+    if os.path.isfile('sfse_loader.exe'):
+        util.replace_command('Starfield.exe', 'sfse_loader.exe')`
+            },
+            {
+                id: "1245620",
+                title: "Elden Ring",
+                desc: "Creates dummy DLC.bdt and DLC.bhd files to fix 'Inappropriate activity detected' error for players without the DLC.",
+                tags: ["Launcher", "Multiplayer"],
+                code: `"""Game fix for Elden Ring: Create dummy DLC files"""
+
+from pathlib import Path
+from protonfixes import util
+
+def main() -> None:
+    game_dir = Path(util.get_game_install_path()) / 'Game'
+    
+    # Create the DLC.bdt file to fix Easy AntiCheat
+    (game_dir / 'DLC.bdt').touch(exist_ok=True)
+    # Now also needs DLC.bhd after 1.14 patch
+    (game_dir / 'DLC.bhd').touch(exist_ok=True)`
+            },
+            {
+                id: "1240440",
+                title: "Halo Infinite",
+                desc: "Installs vcrun2019 runtime, which is required for the online mode to function correctly.",
+                tags: ["Runtime", "Online"],
+                code: `"""Halo Infinite needs vcrun2019"""
+
+from protonfixes import util
+
+def main() -> None:
+    util.protontricks('vcrun2019')`
+            },
+            {
+                id: "1174180",
+                title: "Red Dead Redemption 2",
+                desc: "Appends launch arguments '-fullscreen -vulkan' to prevent launch failures and ensure correct renderer selection.",
+                tags: ["Launcher", "Graphics"],
+                code: `"""Game fix for Red Dead Redemption 2"""
+
+from protonfixes import util
+
+def main() -> None:
+    """Sometimes game will not launch if flags are not specified"""
+    util.append_argument('-fullscreen -vulkan')`
+            },
+            {
+                id: "2161700",
+                title: "Persona 3 Reload",
+                desc: "Imports demo save files into the full game's prefix so players can carry over progress.",
+                tags: ["Save Data", "Import"],
+                code: `"""Persona 3 Reload"""
+
+from protonfixes import util
+
+def main() -> None:
+    """Imports demo saves into the full game."""
+    util.import_saves_folder(
+        3358440, 
+        f'AppData/Roaming/SEGA/P3R/Steam/{util.get_steam_account_id()}', 
+        True
+    )`
+            },
+            {
+                id: "1467450",
+                title: "Gothic 1 / 2 Classic",
+                desc: "Complex fix. Patches config for resolution, installs DirectMusic for audio, overrides ddraw for mods like GD3D11.",
+                tags: ["Audio", "Graphics", "Config"],
+                code: `"""Game fix for Gothic 1/2 Classic"""
+
+from protonfixes import util
+
+def main() -> None:
+    # Fix resolution
+    set_resolution()
+    
+    # Fix background music / Gothic 2 startup
+    util.protontricks('directmusic')
+    util.winedll_override('*dsound', util.OverrideOrder.BUILTIN)
+    
+    # Fix crackling audio
+    util.set_environment('PULSE_LATENCY_MSEC', '90')
+
+    # Allow GD3D11 mod
+    util.winedll_override('ddraw', util.OverrideOrder.NATIVE_BUILTIN)`
+            },
+            {
+                id: "108710",
+                title: "Alan Wake",
+                desc: "Installs d3dcompiler_47 to fix a specific error that occurs on launch.",
+                tags: ["Runtime", "Fixes"],
+                code: `"""Alan Wake"""
+
+from protonfixes import util
+
+def main() -> None:
+    """Installs d3dcompiler_47"""
+    util.protontricks('d3dcompiler_47')`
+            },
+            {
+                id: "1293820",
+                title: "YOU and ME and HER",
+                desc: "Disables the proton media converter to fix audio not playing for in-game videos.",
+                tags: ["Video", "Audio"],
+                code: `"""Game fix for YOU and ME and HER"""
+
+from protonfixes import util
+
+def main() -> None:
+    # Fixes audio not playing for in-game videos
+    util.disable_protonmediaconverter()`
+            },
+            {
+                id: "22330",
+                title: "The Elder Scrolls IV: Oblivion",
+                desc: "Mod support. Launches obse_loader.exe instead of the default launcher if the script extender is present.",
+                tags: ["Modding", "Launcher"],
+                code: `"""Mod support for Oblivion"""
+
+import os
+from protonfixes import util
+
+def main_with_id(game_id: str) -> None:
+    if os.path.exists('modorganizer2'):
+        return
+
+    if os.path.isfile('obse_loader.exe'):
+        util.replace_command('OblivionLauncher.exe', 'obse_loader.exe')`
+            },
+            {
+                id: "105400",
+                title: "Fable III",
+                desc: "Removes Windows Live folder and installs xliveless to bypass GFWL requirements.",
+                tags: ["DRM", "Fixes"],
+                code: `"""Game fix for Fable III"""
+
+import os
+import shutil
+from protonfixes import util
+from protonfixes.logger import log
+
+def main() -> None:
+    util.protontricks('xliveless')
+    
+    dirpath = os.path.join(
+        util.protonprefix(),
+        'drive_c',
+        'Program Files',
+        'Common Files',
+        'Microsoft Shared',
+        'Windows Live',
+    )
+    
+    if os.path.exists(dirpath):
+        shutil.rmtree(dirpath)`
+            }
+        ];
+
+        // --- RENDER LOGIC ---
+
+        const gridContainer = document.getElementById('gridContainer');
+        const noResults = document.getElementById('noResults');
+        const searchInput = document.getElementById('searchInput');
+
+        function escapeHtml(text) {
+            return text
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+
+        // Simple syntax highlighter simulation
+        function highlightCode(code) {
+            let html = escapeHtml(code);
+            // Keywords
+            html = html.replace(/\b(def|import|from|return|if|else|class|pass|None|True|False)\b/g, '<span class="kwd">$1</span>');
+            // Functions/Methods (starts with def or util.)
+            html = html.replace(/\b(util|os|Path|shutil|glob)\./g, '<span class="func">$1</span>.');
+            html = html.replace(/def\s+(\w+)/g, 'def <span class="func">$1</span>');
+            // Strings
+            html = html.replace(/(['"])(.*?)\1/g, '<span class="str">$1$2$1</span>');
+            // Comments
+            html = html.replace(/(#.*)/g, '<span class="comment">$1</span>');
+            return html;
+        }
+
+        function renderGames(filterText = "") {
+            gridContainer.innerHTML = "";
+            let hasResult = false;
+
+            const lowerFilter = filterText.toLowerCase();
+
+            games.forEach(game => {
+                if (game.title.toLowerCase().includes(lowerFilter) || game.desc.toLowerCase().includes(lowerFilter)) {
+                    hasResult = true;
+                    
+                    const card = document.createElement('div');
+                    card.className = 'card';
+                    card.innerHTML = `
+                        <div class="card-header">
+                            <span class="game-id">ID: ${game.id}</span>
+                            <h3 class="card-title">${game.title}</h3>
+                            <p class="card-desc">${game.desc}</p>
+                            <div class="tags">
+                                ${game.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+                            </div>
+                        </div>
+                        <button class="btn-view-fix" onclick="openModal('${game.id}')">View Fix</button>
+                    `;
+                    gridContainer.appendChild(card);
+                }
+            });
+
+            noResults.style.display = hasResult ? 'none' : 'block';
+        }
+
+        // --- MODAL LOGIC ---
+
+        const modalOverlay = document.getElementById('modalOverlay');
+        const modalTitle = document.getElementById('modalTitle');
+        const codeDisplay = document.getElementById('codeDisplay');
+        const closeModal = document.getElementById('closeModal');
+        const copyCode = document.getElementById('copyCode');
+
+        window.openModal = function(id) {
+            const game = games.find(g => g.id === id);
+            if (!game) return;
+
+            modalTitle.textContent = game.title;
+            codeDisplay.innerHTML = highlightCode(game.code);
+            modalOverlay.classList.add('active');
+        };
+
+        function closeMod() {
+            modalOverlay.classList.remove('active');
+        }
+
+        closeModal.addEventListener('click', closeMod);
+        modalOverlay.addEventListener('click', (e) => {
+            if (e.target === modalOverlay) closeMod();
+        });
+
+        copyCode.addEventListener('click', () => {
+            const gameCode = games.find(g => g.title === modalTitle.textContent).code;
+            navigator.clipboard.writeText(gameCode).then(() => {
+                const originalText = copyCode.textContent;
+                copyCode.textContent = "Copied!";
+                setTimeout(() => copyCode.textContent = originalText, 2000);
+            });
+        });
+
+        // --- SEARCH LOGIC ---
+        searchInput.addEventListener('input', (e) => {
+            renderGames(e.target.value);
+        });
+
+        // --- INITIAL RENDER ---
+        renderGames();
+
+    </script>
+</body>
+</html> что єто за сайт ?
+Thought for 10 seconds
+
+Мы получили от пользователя ссылку на сайт chat.z.ai/space/..., а затем от него же — полный HTML-код страницы. В предыдущем ответе мы предположили, что сайт Z.AI — это AI-чатбот. Теперь пользователь спрашивает: "что єто за сайт ?" и приложил HTML-код, который, судя по всему, является кодом страницы ProtonFixes Registry (как следует из title и содержимого). Но ссылка, которую он дал ранее, вела на chat.z.ai. Это несоответствие.
+
+Надо проанализировать: пользователь дал ссылку на chat.z.ai, а потом прислал HTML-код совсем другого сайта — ProtonFixes Registry. Возможно, он перепутал или хочет узнать, что за сайт ProtonFixes Registry. Вопрос: "что єто за сайт ?" скорее относится к присланному HTML.
+
+Итак, нужно ответить, что это за сайт на основе присланного HTML. Это демонстрационная страница или проект "ProtonFixes Registry" — база данных совместимости игр с Proton (инструмент для запуска Windows-игр на Linux). Код представляет собой веб-интерфейс с карточками игр, описаниями исправлений и модальным окном с кодом на Python. Сайт, скорее всего, является статическим прототипом или демо.
+
+Нужно дать объяснение: что такое Proton, ProtonFixes, что делает этот сайт (показывает список игр и фиксы), и отметить, что это, вероятно, нерабочий полноценный сайт, а локальный HTML-файл или демо.
+
+Также можно упомянуть, что он не имеет отношения к chat.z.ai, и возможно пользователь перепутал ссылки.
+
+Построим ответ: сначала объясним ProtonFixes Registry, затем отметим несоответствие с предыдущей ссылкой.
+
+Судя по предоставленному HTML-коду, это демонстрационная страница проекта «ProtonFixes Registry» — база данных с пользовательскими исправлениями (фиксами) для запуска Windows-игр на Linux через Proton.
+
+Что такое Proton и ProtonFixes?
+
+Proton — это инструмент от Valve, который позволяет запускать игры для Windows прямо в клиенте Steam на Linux. Он основан на Wine и добавляет множество игровых патчей.
+
+ProtonFixes — это набор скриптов (обычно на Python), которые автоматически применяют специфические для конкретной игры настройки: устанавливают нужные библиотеки (vcrun, directmusic), подменяют исполняемые файлы (для модов), создают заглушки файлов, чтобы обойти ошибки защиты и т.д.
+
+Что изображено на странице?
+
+Это стилизованный каталог таких исправлений:
+
+Карточки игр (Starfield, Elden Ring, Halo Infinite и др.) с кратким описанием проблемы и её решения.
+
+Теги (Modding, Runtime, Graphics), чтобы быстро фильтровать.
+
+Кнопка «View Fix» — открывает модальное окно с кодом конкретного фикса на Python (например, как игра запускается через мод-лоадер или создаются файлы DLC).
+
+Поиск по названию игры.
+
+Дизайн выполнен в тёмной теме, напоминающей интерфейсы для разработчиков (VS Code), с подсветкой синтаксиса в блоках кода.
+
+Это настоящий сайт?
+
+Скорее всего, это статический прототип или учебный пример. Код полностью самодостаточен (один HTML-файл со встроенными стилями и JavaScript). Он не отправляет запросы на сервер — все данные о играх жёстко прописаны внутри скрипта. То есть это не рабочий онлайн-сервис, а скорее демо-версия того, как мог бы выглядеть такой реестр.
+
+Откуда это взялось?
+
+Возможно, этот HTML был создан как:
+
+концепт-дизайн для будущего сайта;
+
+пример в портфолио верстальщика;
+
+часть документации сообщества ProtonFixes.
+
+Связь с предыдущей ссылкой chat.z.ai/space/...
+
+Этот файл не имеет отношения к сайту Z.AI (чат-боту). Вероятно, вы случайно отправили не ту ссылку или сохранили код страницы с другого ресурса. Ссылка на Z.AI ведёт на страницу AI-ассистента, а ProtonFixes Registry — это отдельная, самодостаточная страница.
+
+Если у вас есть вопросы по конкретным играм или тому, как работают эти фиксы, — спрашивайте!
+
+DeepThink
+Search
+AI-generated, for reference only
+{ "title": "КОМПЛЕКСНАЯ МОДЕЛЬ ИИ-НАВИГАЦИИ КАССИОПЕИ", "version": "4.0 - Canon 2.0 Final (Математически корректный)", "description": "Модель для искусственного интеллекта морской навигации на Кассиопее - спутнике газового гиганта Кроноса", "calculation_date": "2025-01-09", "canon_version": "Canon 2.0 - География как основа (1° = 611 км)", "CANON_2_FINAL_CORRECTIONS": { "NOTE": "География (карта) = НЕИЗМЕННАЯ ОСНОВА. Физика подобрана под неё.", "corrections_applied": { "radius": "1.0 R⊕ → 5.5 R⊕ (для C = 220,000 км)", "mass": "1.4 M⊕ → 42.3 M⊕ (для g = 1.4g при R = 5.5 R⊕)", "gravity": "0.97g → 1.4g (сохранено)", "density": "5.5 г/см³ → 1.41 г/см³ (океаническая планета)" }, "mathematical_verification": { "circumference_formula": "C = 2πR = 2 × 3.14159 × 35,014 км ≈ 220,000 км ✓", "km_per_degree": "220,000 / 360 = 611 км ✓", "gravity_formula": "g = G × M / R² = G × 42.3 M⊕ / (5.5 R⊕)² = 1.4g ✓", "density_formula": "ρ = M / V = 42.3 M⊕ / (5.5)³ V⊕ = 1.41 г/см³ ✓" }, "continents_coordinates": { "Стигія": "0° сх.д., 0° ш.", "Аквалон": "25° сх.д., 0° ш.", "Етея": "50° сх.д., 15° пн.ш.", "Люцидія": "80° сх.д., 15° пн.ш." }, "fleet_tisha_route": { "distance_km": 31645, "time_days": 14.2, "speed_knots": 50 } }, "EXECUTIVE_SUMMARY": { "key_challenges": [ "Экстремальные приливы до 189 метров", "Течения до 84 узлов (43 м/с)", "Многочастотные приливные циклы (20, 30, 60 дней)", "Медленное вращение (480 часов/день) - слабый Кориолис", "Метеорные потоки из пояса астероидов", "Высокая гравитация 1.4g влияет на судостроение", "Гигантские размеры планеты (R = 5.5 R⊕)" ], "navigation_requirements": [ "Таблицы приливов ОБЯЗАТЕЛЬНЫ", "Магнитный компас пригоден (±2°)", "Мониторинг активности Helios", "Резервные навигационные системы", "Уклонение от опасных зон", "Учет 1° = 611 км для расчетов" ], "ai_capabilities_needed": [ "Прогнозирование приливов на 60 дней", "Оптимизация маршрутов по течениям", "Обнаружение штормов и цунами", "Магнитная коррекция по широте", "Метеоритное прогнозирование" ] }, "SYSTEM_OVERVIEW": { "star": { "name": "HELIOS", "type": "M-dwarf (красный карлик)", "mass_Msun": 0.2, "luminosity_Lsun": 0.01, "age_gyr": 1.0, "activity": "высокая", "flare_cycle_years": 11, "superflare_period_years": 75 }, "brown_dwarf": { "name": "AETHER (ЕФІР)", "type": "T8 brown dwarf", "mass_Mjupiter": 50, "distance_AU": 10, "magnetic_field_kG": 5.2, "role": "Радиационный щит системы" }, "gas_giant": { "name": "KRONOS", "type": "Gas Giant (Юпитер-класс)", "mass_Mjupiter": 3.0, "mass_Mearth": 953.4, "radius_Rjupiter": 1.0, "orbital_distance_AU": 1.5, "orbital_period_days": 505, "magnetic_field_G": 10, "internal_heat_multiplier": 2.5, "role": "Источник тепла и приливных сил для Кассиопеи" }, "target_world": { "name": "CASSIOPEIA", "type": "Mega-Ocean World (водо-богатый спутник Кроноса)", "classification_note": "Не классическая суперземля, а океанический мир с низкой плотностью", "mass_Mearth": 42.3, "radius_Rearth": 5.5, "radius_km": 35014, "surface_gravity_g": 1.4, "density_g_cm3": 1.41, "density_note": "Низкая плотность указывает на глубокий океан (~15 км) и мантию из горячего льда", "circumference_km": 220000, "km_per_degree": 611, "surface_area_km2": 15400000000, "ocean_coverage_percent": 70, "ocean_area_km2": 10780000000, "distance_from_kronos_km": 3063206, "orbital_period_days": 20, "rotation_period_hours": 480, "axial_tilt_deg": 15, "atmospheric_pressure_atm": 1.5, "atmosphere_composition": { "N2": 70, "O2": 25, "CO2": 3, "H2O": 2 }, "internal_structure": { "core": "Малое металлическое ядро (~10% массы)", "mantle": "Горячий лёд (фазы V-VII) под давлением", "ocean_depth_km": 15, "crust": "Тонкая корка из водного льда и осадочных пород", "note": "Планета почти полностью состоит из воды и льда" } }, "cassiopeia_moons": { "WARNING": "ПЕРИОДЫ ЛУН СКОРРЕКТИРОВАНЫ ДЛЯ СТАБИЛЬНОСТИ!", "max_stable_orbital_period_days": 4.08, "Tenevra": { "mass_Mearth": 0.01, "period_days": 2.86, "distance_km": 85000, "STABILITY": "СТАБИЛЬНА" }, "Phosphor": { "mass_Mearth": 0.005, "period_days": 3.67, "distance_km": 110000, "STABILITY": "СТАБИЛЬНА" } } }, "TIDAL_MODEL": { "primary_source": "KRONOS", "contribution_percent": 99.98, "tidal_heights_meters": { "static_kronos_bulge": 50, "tenevra_amplitude": 8, "phosphor_amplitude": 5, "maximum_combined": 189, "spring_tide": 63, "neap_tide": 50, "amplification_in_straits": 3.0 }, "tidal_cycles": { "primary_cycle": { "name": "Kronos Cycle", "period_days": 20, "description": "Обращение Кассиопеи вокруг Кроноса" }, "tenevra_tide_cycle": { "period_days": 2.86, "description": "Прилив от Теневры (скорректирован)" }, "phosphor_tide_cycle": { "period_days": 3.67, "description": "Прилив от Фосфора (скорректирован)" }, "synodic_cycle": { "period_days": 30, "description": "Сизигийные приливы (выравнивание лун)" }, "mega_cycle": { "period_years": 52, "description": "Большой приливный цикл Кроноса" }, "full_alignment": { "period_days": 60, "description": "Экстремальные приливы - ЗАПРЕТ НАВИГАЦИИ" } }, "tidal_clock": { "day_hours": 480, "phases": [ {"name": "Low_Water", "symbol": "—", "duration_hours": 120, "sailing": "optimal"}, {"name": "Rising", "symbol": "↗", "duration_hours": 120, "sailing": "caution"}, {"name": "High_Water", "symbol": "+", "duration_hours": 120, "sailing": "dangerous"}, {"name": "Falling", "symbol": "↘", "duration_hours": 120, "sailing": "caution"} ] }, "tidal_bulge_positions": { "sub_kronos_point_height_m": 50, "antipodal_point_height_m": 45, "perpendicular_points_height_m": 0 } }, "OCEAN_CURRENTS": { "base_current_speed_ms": 20.3, "maximum_current_ms": 28.7, "extreme_current_ms": 43.05, "extreme_current_knots": 83.7, "locations": [ { "name": "Eteya_Equatorial", "latitude_deg": 15, "longitude_deg": 50, "current_speed_ms": 20.3, "pattern": "Полусуточные колебания восток-запад", "danger_level": "high" }, { "name": "Lucidia_North", "latitude_deg": 15, "longitude_deg": 80, "current_speed_ms": 14.2, "pattern": "Круговые течения вокруг континента", "danger_level": "medium" }, { "name": "Stigia_Polar", "latitude_deg": 0, "longitude_deg": 0, "current_speed_ms": 10.1, "pattern": "Полярные вихревые течения", "danger_level": "medium" }, { "name": "Aqualon_Archipelago", "latitude_deg": 0, "longitude_deg": 25, "current_speed_ms": 28.7, "pattern": "Хаотические турбулентные течения", "danger_level": "extreme" }, { "name": "Central_Strait", "latitude_deg": 12, "longitude_deg": 40, "current_speed_ms": 43.05, "pattern": "Приливный струйный поток - ЕТЕЙСЬКИЙ РОЗЛОМ", "danger_level": "extreme" } ], "major_currents": { "equatorial_current": { "direction": "Восток-запад колебание", "speed_knots": 4, "width_km": 2000, "use": "Быстрый транспорт Стигія ↔ Аквалон ↔ Етея" }, "northern_gyre": { "direction": "По часовой стрелке", "speed_knots": 1.5, "diameter_km": 8000, "use": "Плавание вокруг Люцидії" }, "southern_gyre": { "direction": "Против часовой стрелки", "speed_knots": 1, "diameter_km": 6000, "use": "Доступ к Стигії" }, "kronos_tidal_stream": { "direction": "К точке под Кроносом", "speed_knots": 5, "description": "Постоянное течение к приливной выпуклости" } } }, "WAVE_MODEL": { "storm_waves": { "typical_height_m": 12, "extreme_height_m": 25, "hurricane_height_m": 35, "atmosphere_factor": "1.5 атм усиливает волнение на 50%" }, "tsunami": { "source": "Вулканический архипелаг Аквалон", "typical_height_m": 15, "extreme_height_m": 50, "speed_deep_ocean_ms": 234, "warning_time_hours": 2, "frequency": "1-2 раза в десятилетие" }, "tidal_bore": { "type": "Глобальная приливная волна", "period_hours": 10, "wavelength_km": 12032, "speed_ms": 234, "height_m": 15 }, "navigation_limits": { "max_safe_wave_m": 4, "small_craft_limit_m": 2, "large_vessel_limit_m": 8, "extreme_weather_limit_m": 15 } }, "CORIOLIS_EFFECT": { "rotation_period_hours": 480, "angular_velocity_ratio_to_earth": 0.05, "impact": "МИНИМАЛЬНЫЙ - течения определяются приливами", "practical_note": "Кассиопея вращается в ~3700 раз медленнее Земли", "gyre_rotation": { "northern_hemisphere": "По часовой стрелке", "southern_hemisphere": "Против часовой стрелки" } }, "MAGNETIC_NAVIGATION": { "compass_usable": true, "compass_accuracy_deg": 2.0, "field_strength_G": 1.5, "magnetic_declination_deg": 11.5, "secular_variation_deg_per_year": 0.1, "field_variations_by_latitude": { "equator_G": 1.5, "mid_latitude_G": 2.37, "polar_G": 3.0, "variation_percent": 100 }, "dip_angles": { "equator_deg": 0, "mid_latitude_deg": 45, "polar_deg": 90 }, "compass_reliability": { "equatorial": "высокая", "mid_latitude": "хорошая", "polar_regions": "низкая (сближение полюсов)", "auroral_zones": "проблемная (индукционные токи)" } }, "AURORA_ZONES": { "polar_cap_latitude_deg": [72, 90], "area_percent": 9.8, "frequency": "ежедневно", "intensity_normal_Kp": "2-3", "intensity_superflare_Kp": "9+", "navigation_impact": { "compass_deviation_deg": 5, "radio_interference": "умеренная" } }, "RADIATION_ENVIRONMENT": { "normal_dose_mSv_yr": 0.3, "flare_dose_mSv_yr": 10, "superflare_period_years": 75, "heliophysical_cycle_years": 11, "proton_deflection_MeV": 10.3, "protection_level": "Аналогично Земле (благодаря Ефіру)" }, "METEORITE_HAZARD": { "asteroid_belt": { "name": "Кільце Хаосу", "location_AU": [1.3, 1.4], "meteor_cycle_years": 37 }, "major_streams": [ {"name": "Кассіопеїди", "ZHR": 200, "months": [11, 12], "velocity_km_s": 8}, {"name": "Хаос-Альфа", "ZHR": 150, "months": [3, 4], "velocity_km_s": 18}, {"name": "Хаос-Омега", "ZHR": 120, "months": [5, 6], "velocity_km_s": 20}, {"name": "Крононіди", "ZHR": 80, "months": [7, 8], "velocity_km_s": 12}, {"name": "Планета-Шестиди", "ZHR": 60, "months": [1, 2], "velocity_km_s": 15} ], "entry_velocity_km_s": 7.87, "impact_probability_per_year": 4.7e-11, "safe_distance_from_asteroid_km": 1000, "early_warning_distance_km": 50000, "super_cycle": { "period_years": 37, "peak_years": [1, 13, 25, 37], "quiet_years": [7, 19, 31] } }, "NAVIGATION_ROUTES_CANON2": { "NOTE": "Маршруты обновлены согласно Canon 2.0 (1° = 611 км)", "routes": [ { "name": "Stigiya_to_Eteya", "distance_km": 31645, "optimal_route": "Через Аквалон (25° сх.д.)", "time_days": 14.2, "speed_knots": 50, "waypoints": [ {"name": "Стигія", "lat": 0, "lon": 0}, {"name": "Лагуна Аквалона", "lat": 2, "lon": 25}, {"name": "Затока Етеї", "lat": 15, "lon": 50} ], "difficulty": "moderate", "dangers": ["Аквалонський водоворот", "Течії архіпелагу"] }, { "name": "Eteya_to_Lucidiya", "distance_km": 17705, "optimal_route": "Східний морський шлях", "time_days": 8.0, "speed_knots": 50, "waypoints": [ {"name": "Етея (центр)", "lat": 15, "lon": 50}, {"name": "Люцидія (центр)", "lat": 15, "lon": 80} ], "difficulty": "moderate", "dangers": ["Центральна течія"] }, { "name": "Stigiya_to_Lucidiya", "distance_km": 49321, "optimal_route": "Через Аквалон та Етею", "time_days": 22.2, "speed_knots": 50, "difficulty": "hard", "dangers": ["Всі зони архіпелагу"] } ], "danger_zones": [ { "name": "Аквалонський водоворот", "location": "0° ш., 22° сх.д.", "type": "Permanent maelstrom", "current_speed_ms": 15, "danger_level": "extreme", "avoid_radius_km": 100 }, { "name": "Етейський розлом", "location": "12° пн.ш., 40° сх.д.", "type": "Tidal race", "current_speed_ms": 43, "danger_level": "extreme", "safe_window_hours": 4, "note": "Течія 84 вузли - прохід лише у вікна тиші" }, { "name": "Стигійський крижаний пояс", "location": "72°-90° пд.ш.", "type": "Ice hazard", "danger_level": "moderate", "seasonal_variation": "Летом меньше льда" }, { "name": "Зона сизигійних приливів", "type": "Extreme tidal range", "height_variation_m": 75, "danger_level": "extreme", "occurrence": "Каждые 30 дней" }, { "name": "Торн-Стрейт", "location": "0° ш., 20° сх.д.", "type": "Пролив", "current_speed_ms": 43, "danger_level": "extreme", "note": "Течія 84 вузли" } ], "emergency_ports": [ {"name": "Eteya North Harbor", "location": "30° пн.ш., 50° сх.д."}, {"name": "Lucidia Port", "location": "15° пн.ш., 80° сх.д."}, {"name": "Aqualon Shelter Bay", "location": "2° пн.ш., 25° сх.д."}, {"name": "Stigiya Docks", "location": "0° ш., 0° д."} ] }, "ISLANDS_REGISTRY": { "total_islands": 60, "main_archipelago": "Аквалон (25° сх.д.)", "key_islands": [ {"name": "Острів-Стовп", "lat": -10, "lon": 40, "height_m": 520, "purpose": "Укриття від Кракена"}, {"name": "Велдстрон", "lat": -20, "lon": 30, "purpose": "База Третьої сили"}, {"name": "Крантвейл", "lat": -5, "lon": 35, "purpose": "Біолюмінесцентні рифи"} ], "min_safe_height_m": 250, "min_stable_area_km2": 5000 }, "WATER_SYSTEMS": { "total_waterbodies": 53, "rivers": 19, "lakes": 18, "swamps": 9, "main_river": { "name": "Валеріан", "continent": "Етея", "length_km": 8500, "features": "Мінералізована вода" }, "sacred_lake": { "name": "Обсидіанова Чаша", "continent": "Люцидія", "location": "25° пн.ш., 80° сх.д." } }, "GEOTHERMAL_ZONES": { "global_power_TW": 50, "comparison_to_earth": "100x больше", "ocean_temperature": { "surface_equatorial_C": 28, "surface_polar_C": -2, "deep_ocean_C": 4, "geothermal_warming": "+5°C глобально" }, "hydrothermal_zones": [ { "name": "Аквалонська рифтова зона", "vent_temperature_C": 380, "activity": "continuous", "tsunami_risk": "high" }, { "name": "Етейський гарячий пояс", "vent_temperature_C": 320, "activity": "pulsing" } ] }, "ORBITAL_PARAMETERS": { "cassiopeia": { "distance_from_kronos_km": 3063206, "distance_from_kronos_AU": 0.0205, "orbital_period_days": 20, "orbital_velocity_km_s": 11.14 }, "kronos": { "distance_from_helios_AU": 1.5, "orbital_period_days": 505, "orbital_velocity_km_s": 10.87 }, "hill_sphere_cassiopeia_km": 241409, "roche_limit_safety_factor": 18.7 }, "AI_NAVIGATION_ALGORITHM": { "input_parameters": [ "Текущее время (местный год, месяц, день, час)", "Позиция (широта, долгота) - помни: 1° = 611 км", "Пункт назначения", "Тип судна (максимальная скорость, осадка)", "Текущие метеоусловия" ], "calculation_steps": [ "1. Определить фазу приливного цикла (20/30/60 дней)", "2. Рассчитать высоту прилива в текущей позиции", "3. Определить направление и скорость приливных течений", "4. Рассчитать оптимальный маршрут с учётом течений", "5. Проверить опасные зоны на маршруте", "6. Учесть магнитное склонение для широты", "7. Проверить прогноз метеорных потоков", "8. Рассчитать время отправления для минимального риска" ], "distance_calculation": { "formula": "distance_km = degrees_diff × 611 × cos(latitude)", "example": "Стигія→Етея = 50° × 611 × cos(7.5°) ≈ 31,645 км" }, "decision_matrix": { "tide_phase": { "low_water": "optimal_departure", "rising": "caution_required", "high_water": "dangerous_stay_in_port", "falling": "caution_required" }, "current_speed": { "below_10_ms": "safe_navigation", "10_20_ms": "experienced_crew_required", "20_30_ms": "large_vessels_only", "above_30_ms": "navigation_prohibited" }, "meteor_activity": { "ZHR_below_50": "normal_operations", "ZHR_50_100": "monitoring_required", "ZHR_100_200": "shelter_recommended", "ZHR_above_200": "flight_operations_suspended" } } }, "CALENDAR_SYSTEM": { "local_year_days": 505, "local_month_days": 42, "months_per_year": 12, "day_hours": 480, "year_earth_years": 1.423, "navigation_calendar": { "critical_periods": [ {"name": "Сизигийні приливи", "interval_days": 30, "duration_days": 2, "action": "stay_in_port"}, {"name": "Повне вирівнювання", "interval_days": 60, "duration_days": 3, "action": "emergency_shelter"}, {"name": "Метеорні піки", "interval_years": 37, "peak_years": [1, 13, 25, 37], "action": "monitoring"} ], "optimal_sailing_windows": [ {"after": "low_water", "duration_hours": 120, "description": "После низкой воды"}, {"before": "spring_tide", "duration_hours": 48, "description": "Перед сизигийным приливом"} ] } }, "EMERGENCY_PROTOCOLS": { "tsunami_warning": { "detection": "Сейсмический мониторинг Аквалона", "warning_time_hours": 2, "action": "Немедленная эвакуация в открытое море" }, "stellar_flare": { "detection": "Мониторинг HELIOS", "warning_time_hours": 0.5, "action": "Укрытие в защищённых портах" }, "extreme_tide": { "detection": "60-дневный цикл", "warning_time_days": 5, "action": "Все суда в портах" }, "meteor_storm": { "detection": "37-летний цикл + радар", "warning_time_hours": 24, "action": "Отмена рейдов, защита судов" }, "kraken_attack": { "detection": "Гідроакустичні сенсори", "safe_zones": ["Острів-Стовп (висота >500м)", "Глибокі шельфи <50м"], "action": "Эвакуація на високі плато" } }, "RECOMMENDATIONS_FOR_AI_IMPLEMENTATION": { "hardware_requirements": [ "Магнитный компас с автоматической коррекцией по широте", "Приливной калькулятор с прогнозом на 60 дней", "Радар для обнаружения айсбергов и метеоритов", "Сейсмический датчик для цунами-предупреждения", "Радиоприёмник для мониторинга активности HELIOS", "GPS-аналог с точностью 1м (DGPS)" ], "software_algorithms": [ "Многочастотный анализ Фурье для приливов", "Маршрутизация с учётом приливных течений", "Машинное обучение для прогнозирования штормов", "Байесовская оценка рисков маршрута", "Калмановский фильтр для позиционирования" ] }, "CRITICAL_WARNINGS": [ "⚠️ КАНОН 2.0 FINAL: Масса = 42.3 M⊕, Радиус = 5.5 R⊕", "⚠️ Гравітація 1.4g (математично коректна для цих параметрів)", "⚠️ 1° довготи = 611 км (НЕЗМІННА КОНСТАНТА географії)", "⚠️ Густина 1.41 г/см³ = океанічна планета (майже суцільна вода)", "⚠ї Приливи до 189 м - стандартна навігація НЕМОЖЛИВА", "⚠️ Течії до 84 вузлів - смертельно небезпечно для малих суден", "⚠️ 60-денний цикл повного вирівнювання = заборона навігації", "⚠ї Острови нижче 250 м затоплюються під час сизигії" ], "CANON_VERIFICATION": { "verification_date": "2025-01-09", "verified_formulas": { "circumference_check": "2π × 35,014 км = 220,000 км ✓", "degree_check": "220,000 / 360 = 611 км ✓", "gravity_check": "g = G × 42.3 M⊕ / (5.5 R⊕)² = 1.4g ✓", "density_check": "ρ = 42.3 / (5.5)³ × 5.5 г/см³ = 1.41 г/см³ ✓" }, "canon_status": "МАТЕМАТИЧЕСКИ КОРРЕКТЕН" }, "data_sources": [ "cassiopeia_gravity_calculations.json", "cassiopeia_oceanography.json", "cassiopeia_magnetic.json", "cassiopeia_meteorites.json", "Cassiopeia_Atlas_Canon2.pdf", "Cassiopeia_Distance_Matrix_Canon2.csv", "Cassiopeia_Hydrographic_Map.pdf", "Cassiopeia_Islands_Registry.csv" ] } разясни по файлу разложы все по полочкам
+а я уже ипугался забыл что у меня асрономичекий и забыл как это в асрономии асрономичекий год и хотя в обеих случаях асрономичекий. блин эта ситема стала сложной даже для ее создателя прикольно !
+https://chat.z.ai/space/f13a12xvzpx0-art что єто за сайт ?
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>ProtonFixes Registry | Game Compatibility Database</title> <style> /* --- CSS VARIABLES & RESET --- */ :root { --bg-body: #050507; --bg-card: #0f111a; --bg-card-hover: #161925; --bg-modal: #0b0d10; --accent-primary: #5c6bc0; --accent-glow: #3f51b5; --accent-secondary: #00e676; --text-main: #e0e6ed; --text-muted: #94a3b8; --font-main: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; --font-code: 'Fira Code', 'Consolas', monospace; --border-color: #232730; --glass: rgba(15, 17, 26, 0.85); } * { box-sizing: border-box; margin: 0; padding: 0; } body { background-color: var(--bg-body); color: var(--text-main); font-family: var(--font-main); line-height: 1.6; overflow-x: hidden; } /* --- TYPOGRAPHY --- */ h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; } .gradient-text { background: linear-gradient(135deg, #fff 0%, #a5b4fc 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; } /* --- LAYOUT UTILITIES --- */ .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; } .section-spacer { padding: 60px 0; } /* --- NAVIGATION --- */ nav { position: sticky; top: 0; z-index: 100; background: var(--glass); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border-color); padding: 15px 0; } .nav-inner { display: flex; justify-content: space-between; align-items: center; } .logo { font-size: 1.25rem; font-weight: 800; display: flex; align-items: center; gap: 10px; } .logo span { color: var(--accent-primary); } .search-container { position: relative; width: 100%; max-width: 400px; } .search-input { width: 100%; padding: 10px 15px 10px 40px; border-radius: 8px; border: 1px solid var(--border-color); background: rgba(255,255,255,0.05); color: white; font-family: var(--font-main); transition: all 0.3s ease; } .search-input:focus { outline: none; border-color: var(--accent-primary); box-shadow: 0 0 0 3px rgba(92, 107, 192, 0.2); } .search-icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; fill: var(--text-muted); } /* --- HERO SECTION --- */ .hero { text-align: center; padding: 80px 0 40px; position: relative; } .hero::before { content: ''; position: absolute; top: -50px; left: 50%; transform: translateX(-50%); width: 600px; height: 300px; background: radial-gradient(circle, rgba(92, 107, 192, 0.15) 0%, rgba(0,0,0,0) 70%); z-index: -1; pointer-events: none; } .hero h1 { font-size: 3rem; margin-bottom: 16px; } .hero p { color: var(--text-muted); font-size: 1.1rem; max-width: 600px; margin: 0 auto; } .stats-bar { display: flex; justify-content: center; gap: 40px; margin-top: 40px; flex-wrap: wrap; } .stat-item { text-align: center; } .stat-val { font-size: 2rem; font-weight: 700; color: var(--accent-secondary); } .stat-label { font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; } /* --- GRID --- */ .fix-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; margin-top: 20px; } /* --- CARD --- */ .card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 12px; padding: 24px; transition: all 0.3s ease; position: relative; display: flex; flex-direction: column; justify-content: space-between; overflow: hidden; } .card:hover { transform: translateY(-5px); background: var(--bg-card-hover); border-color: var(--accent-primary); box-shadow: 0 10px 30px rgba(0,0,0,0.3); } .card-header { margin-bottom: 15px; } .game-id { font-size: 0.75rem; color: var(--accent-secondary); font-family: var(--font-code); margin-bottom: 5px; display: inline-block; background: rgba(0, 230, 118, 0.1); padding: 2px 6px; border-radius: 4px; } .card-title { font-size: 1.25rem; margin-bottom: 8px; } .card-desc { font-size: 0.9rem; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; } .tags { margin-top: 15px; display: flex; gap: 8px; flex-wrap: wrap; } .tag { font-size: 0.75rem; padding: 4px 8px; background: rgba(255,255,255,0.05); border-radius: 4px; color: var(--text-muted); } .btn-view-fix { margin-top: 20px; width: 100%; padding: 10px; background: transparent; border: 1px solid var(--accent-primary); color: var(--accent-primary); border-radius: 6px; cursor: pointer; font-weight: 600; transition: all 0.2s; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.5px; } .btn-view-fix:hover { background: var(--accent-primary); color: white; } /* --- MODAL --- */ .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); backdrop-filter: blur(5px); z-index: 1000; display: none; align-items: center; justify-content: center; opacity: 0; transition: opacity 0.3s ease; } .modal-overlay.active { display: flex; opacity: 1; } .modal { background: var(--bg-modal); width: 90%; max-width: 800px; max-height: 90vh; border-radius: 12px; border: 1px solid var(--border-color); display: flex; flex-direction: column; box-shadow: 0 20px 50px rgba(0,0,0,0.5); transform: scale(0.95); transition: transform 0.3s ease; } .modal-overlay.active .modal { transform: scale(1); } .modal-header { padding: 20px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; } .modal-title { font-size: 1.2rem; font-weight: 600; } .close-btn { background: none; border: none; color: var(--text-muted); font-size: 1.5rem; cursor: pointer; line-height: 1; } .close-btn:hover { color: white; } .modal-body { padding: 0; overflow-y: auto; background: #1e1e1e; /* VS Code Dark style */ } .code-block { margin: 0; padding: 20px; font-family: var(--font-code); font-size: 0.9rem; color: #d4d4d4; white-space: pre-wrap; position: relative; } /* Syntax Highlighting Sim */ .kwd { color: #569cd6; } /* def, from, import */ .func { color: #dcdcaa; } /* function names */ .str { color: #ce9178; } /* strings */ .comment { color: #6a9955; } /* comments */ .arg { color: #9cdcfe; } /* arguments */ .modal-footer { padding: 15px 20px; border-top: 1px solid var(--border-color); display: flex; justify-content: flex-end; gap: 10px; } .btn-copy { background: var(--accent-secondary); color: #000; border: none; padding: 8px 16px; border-radius: 4px; font-weight: 600; cursor: pointer; font-size: 0.9rem; } .btn-copy:hover { filter: brightness(1.1); } /* --- FOOTER --- */ footer { border-top: 1px solid var(--border-color); padding: 40px 0; text-align: center; color: var(--text-muted); font-size: 0.9rem; margin-top: 60px; } /* --- RESPONSIVE --- */ @media (max-width: 768px) { .hero h1 { font-size: 2rem; } .nav-inner { flex-direction: column; gap: 15px; } .search-container { max-width: 100%; } } </style> </head> <body> <!-- NAV --> <nav> <div class="container nav-inner"> <div class="logo"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--accent-primary)"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg> ProtonFixes<span>Registry</span> </div> <div class="search-container"> <svg class="search-icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg> <input type="text" class="search-input" id="searchInput" placeholder="Search by game title (e.g. 'Halo', 'Elden Ring')..."> </div> </div> </nav> <!-- HERO --> <header class="hero container"> <h1>Linux Gaming <span class="gradient-text">Compatibility Database</span></h1> <p>Automated fixes for Steam games running on Proton. Browse the registry of patches, tweaks, and compatibility overrides.</p> <div class="stats-bar"> <div class="stat-item"> <div class="stat-val">1,200+</div> <div class="stat-label">Games Fixed</div> </div> <div class="stat-item"> <div class="stat-val">Proton</div> <div class="stat-label">Engine</div> </div> <div class="stat-item"> <div class="stat-val">Open</div> <div class="stat-label">Source</div> </div> </div> </header> <!-- MAIN CONTENT --> <main class="container section-spacer"> <h2 style="margin-bottom: 20px; font-size: 1.5rem;">Latest Entries</h2> <div id="gridContainer" class="fix-grid"> <!-- Cards will be injected here via JS --> </div> <!-- Empty State (Hidden by default) --> <div id="noResults" style="display:none; text-align:center; padding: 40px; color: var(--text-muted);"> <h3>No fixes found for this game.</h3> <p>Try searching for a different title.</p> </div> </main> <!-- FOOTER --> <footer> <div class="container"> <p>Generated based on ProtonFixes community contributions. Data parsed from repository snapshots.</p> <p style="margin-top: 10px; opacity: 0.6;">&copy; 2023 ProtonFixes Showcase. Not affiliated with Valve.</p> </div> </footer> <!-- MODAL --> <div class="modal-overlay" id="modalOverlay"> <div class="modal"> <div class="modal-header"> <div class="modal-title" id="modalTitle">Game Title</div> <button class="close-btn" id="closeModal">&times;</button> </div> <div class="modal-body"> <div class="code-block" id="codeDisplay"></div> </div> <div class="modal-footer"> <span style="margin-right: auto; color: var(--text-muted); font-size: 0.85rem; align-self:center;">Python 3</span> <button class="btn-copy" id="copyCode">Copy to Clipboard</button> </div> </div> </div> <!-- JAVASCRIPT --> <script> // --- DATASET --- // A curated subset of the provided Python code, formatted for the UI. const games = [ { id: "1716740", title: "Starfield", desc: "Mod support fix. Replaces launcher with script extender (sfse_loader.exe) if present, enabling community modding.", tags: ["Modding", "Launcher"], code: `"""Mod support for Starfield""" import os from protonfixes import util def main_with_id(game_id: str) -> None: # Check for Mod Organizer 2 compatibility if os.path.exists('modorganizer2'): return # Run script extender if it exists if os.path.isfile('sfse_loader.exe'): util.replace_command('Starfield.exe', 'sfse_loader.exe')` }, { id: "1245620", title: "Elden Ring", desc: "Creates dummy DLC.bdt and DLC.bhd files to fix 'Inappropriate activity detected' error for players without the DLC.", tags: ["Launcher", "Multiplayer"], code: `"""Game fix for Elden Ring: Create dummy DLC files""" from pathlib import Path from protonfixes import util def main() -> None: game_dir = Path(util.get_game_install_path()) / 'Game' # Create the DLC.bdt file to fix Easy AntiCheat (game_dir / 'DLC.bdt').touch(exist_ok=True) # Now also needs DLC.bhd after 1.14 patch (game_dir / 'DLC.bhd').touch(exist_ok=True)` }, { id: "1240440", title: "Halo Infinite", desc: "Installs vcrun2019 runtime, which is required for the online mode to function correctly.", tags: ["Runtime", "Online"], code: `"""Halo Infinite needs vcrun2019""" from protonfixes import util def main() -> None: util.protontricks('vcrun2019')` }, { id: "1174180", title: "Red Dead Redemption 2", desc: "Appends launch arguments '-fullscreen -vulkan' to prevent launch failures and ensure correct renderer selection.", tags: ["Launcher", "Graphics"], code: `"""Game fix for Red Dead Redemption 2""" from protonfixes import util def main() -> None: """Sometimes game will not launch if flags are not specified""" util.append_argument('-fullscreen -vulkan')` }, { id: "2161700", title: "Persona 3 Reload", desc: "Imports demo save files into the full game's prefix so players can carry over progress.", tags: ["Save Data", "Import"], code: `"""Persona 3 Reload""" from protonfixes import util def main() -> None: """Imports demo saves into the full game.""" util.import_saves_folder( 3358440, f'AppData/Roaming/SEGA/P3R/Steam/{util.get_steam_account_id()}', True )` }, { id: "1467450", title: "Gothic 1 / 2 Classic", desc: "Complex fix. Patches config for resolution, installs DirectMusic for audio, overrides ddraw for mods like GD3D11.", tags: ["Audio", "Graphics", "Config"], code: `"""Game fix for Gothic 1/2 Classic""" from protonfixes import util def main() -> None: # Fix resolution set_resolution() # Fix background music / Gothic 2 startup util.protontricks('directmusic') util.winedll_override('*dsound', util.OverrideOrder.BUILTIN) # Fix crackling audio util.set_environment('PULSE_LATENCY_MSEC', '90') # Allow GD3D11 mod util.winedll_override('ddraw', util.OverrideOrder.NATIVE_BUILTIN)` }, { id: "108710", title: "Alan Wake", desc: "Installs d3dcompiler_47 to fix a specific error that occurs on launch.", tags: ["Runtime", "Fixes"], code: `"""Alan Wake""" from protonfixes import util def main() -> None: """Installs d3dcompiler_47""" util.protontricks('d3dcompiler_47')` }, { id: "1293820", title: "YOU and ME and HER", desc: "Disables the proton media converter to fix audio not playing for in-game videos.", tags: ["Video", "Audio"], code: `"""Game fix for YOU and ME and HER""" from protonfixes import util def main() -> None: # Fixes audio not playing for in-game videos util.disable_protonmediaconverter()` }, { id: "22330", title: "The Elder Scrolls IV: Oblivion", desc: "Mod support. Launches obse_loader.exe instead of the default launcher if the script extender is present.", tags: ["Modding", "Launcher"], code: `"""Mod support for Oblivion""" import os from protonfixes import util def main_with_id(game_id: str) -> None: if os.path.exists('modorganizer2'): return if os.path.isfile('obse_loader.exe'): util.replace_command('OblivionLauncher.exe', 'obse_loader.exe')` }, { id: "105400", title: "Fable III", desc: "Removes Windows Live folder and installs xliveless to bypass GFWL requirements.", tags: ["DRM", "Fixes"], code: `"""Game fix for Fable III""" import os import shutil from protonfixes import util from protonfixes.logger import log def main() -> None: util.protontricks('xliveless') dirpath = os.path.join( util.protonprefix(), 'drive_c', 'Program Files', 'Common Files', 'Microsoft Shared', 'Windows Live', ) if os.path.exists(dirpath): shutil.rmtree(dirpath)` } ]; // --- RENDER LOGIC --- const gridContainer = document.getElementById('gridContainer'); const noResults = document.getElementById('noResults'); const searchInput = document.getElementById('searchInput'); function escapeHtml(text) { return text .replace(/&/g, "&amp;") .replace(/</g, "&lt;") .replace(/>/g, "&gt;") .replace(/"/g, "&quot;") .replace(/'/g, "&#039;"); } // Simple syntax highlighter simulation function highlightCode(code) { let html = escapeHtml(code); // Keywords html = html.replace(/\b(def|import|from|return|if|else|class|pass|None|True|False)\b/g, '<span class="kwd">$1</span>'); // Functions/Methods (starts with def or util.) html = html.replace(/\b(util|os|Path|shutil|glob)\./g, '<span class="func">$1</span>.'); html = html.replace(/def\s+(\w+)/g, 'def <span class="func">$1</span>'); // Strings html = html.replace(/(['"])(.*?)\1/g, '<span class="str">$1$2$1</span>'); // Comments html = html.replace(/(#.*)/g, '<span class="comment">$1</span>'); return html; } function renderGames(filterText = "") { gridContainer.innerHTML = ""; let hasResult = false; const lowerFilter = filterText.toLowerCase(); games.forEach(game => { if (game.title.toLowerCase().includes(lowerFilter) || game.desc.toLowerCase().includes(lowerFilter)) { hasResult = true; const card = document.createElement('div'); card.className = 'card'; card.innerHTML = ` <div class="card-header"> <span class="game-id">ID: ${game.id}</span> <h3 class="card-title">${game.title}</h3> <p class="card-desc">${game.desc}</p> <div class="tags"> ${game.tags.map(tag => `<span class="tag">${tag}</span>`).join('')} </div> </div> <button class="btn-view-fix" onclick="openModal('${game.id}')">View Fix</button> `; gridContainer.appendChild(card); } }); noResults.style.display = hasResult ? 'none' : 'block'; } // --- MODAL LOGIC --- const modalOverlay = document.getElementById('modalOverlay'); const modalTitle = document.getElementById('modalTitle'); const codeDisplay = document.getElementById('codeDisplay'); const closeModal = document.getElementById('closeModal'); const copyCode = document.getElementById('copyCode'); window.openModal = function(id) { const game = games.find(g => g.id === id); if (!game) return; modalTitle.textContent = game.title; codeDisplay.innerHTML = highlightCode(game.code); modalOverlay.classList.add('active'); }; function closeMod() { modalOverlay.classList.remove('active'); } closeModal.addEventListener('click', closeMod); modalOverlay.addEventListener('click', (e) => { if (e.target === modalOverlay) closeMod(); }); copyCode.addEventListener('click', () => { const gameCode = games.find(g => g.title === modalTitle.textContent).code; navigator.clipboard.writeText(gameCode).then(() => { const originalText = copyCode.textContent; copyCode.textContent = "Copied!"; setTimeout(() => copyCode.textContent = originalText, 2000); }); }); // --- SEARCH LOGIC --- searchInput.addEventListener('input', (e) => { renderGames(e.target.value); }); // --- INITIAL RENDER --- renderGames(); </script> </body> </html> что єто за сайт ?

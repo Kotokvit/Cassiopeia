@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Кассиопея - Орбитальный ИИ</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial; background: #0a0a1a; color: #e0e0e0; overflow: hidden; }
+        #container { width: 100vw; height: 100vh; }
+        
+        /* Status */
+        #status {
+            position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            background: rgba(0,20,40,0.95); border: 2px solid #00ff88; border-radius: 10px;
+            padding: 30px; z-index: 1000; text-align: center; min-width: 300px;
+        }
+        #status h2 { color: #00ff88; margin-bottom: 15px; }
+        #status-bar { width: 100%; height: 20px; background: #1a1a2e; border-radius: 10px; overflow: hidden; }
+        #status-progress { height: 100%; background: linear-gradient(90deg,#00ff88,#00aaff); width: 0%; transition: width 0.3s; }
+        #status-text { margin-top: 10px; color: #888; font-size: 14px; }
+        
+        /* Header */
+        #header {
+            position: fixed; top: 0; left: 0; right: 0;
+            background: linear-gradient(180deg, rgba(0,0,0,0.9), transparent);
+            padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; z-index: 10;
+        }
+        #header h1 { color: #00ff88; font-size: 18px; }
+        #time-box { background: rgba(0,50,100,0.5); padding: 8px 15px; border-radius: 5px; border: 1px solid #00aaff; font-size: 12px; }
+        
+        /* Panels */
+        .panel {
+            position: fixed; top: 70px; width: 280px; max-height: calc(100vh - 90px);
+            background: rgba(10,20,40,0.9); border: 1px solid #00aaff; border-radius: 8px;
+            overflow-y: auto; z-index: 10;
+        }
+        #left-panel { left: 10px; }
+        #right-panel { right: 10px; }
+        .section { padding: 12px; border-bottom: 1px solid #1a3a5a; }
+        .section h3 { color: #00ff88; font-size: 12px; margin-bottom: 8px; text-transform: uppercase; }
+        .row { display: flex; justify-content: space-between; padding: 4px 0; font-size: 11px; border-bottom: 1px dotted #1a3a5a; }
+        .label { color: #888; }
+        .value { color: #00aaff; font-weight: bold; }
+        .value.warn { color: #ffaa00; }
+        .value.danger { color: #ff4444; }
+        .value.safe { color: #00ff88; }
+        
+        /* AI Status */
+        #ai-status {
+            position: fixed; bottom: 10px; left: 10px; width: 280px;
+            background: rgba(10,20,40,0.95); border: 2px solid #00ff88; border-radius: 8px; padding: 12px; z-index: 10;
+        }
+        #ai-status h3 { color: #00ff88; margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
+        .indicator { width: 10px; height: 10px; background: #00ff88; border-radius: 50%; animation: pulse 1s infinite; }
+        @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.5; } }
+        
+        /* Navigation */
+        #nav-panel {
+            position: fixed; bottom: 10px; right: 10px; width: 280px;
+            background: rgba(10,20,40,0.95); border: 1px solid #00aaff; border-radius: 8px; padding: 12px; z-index: 10;
+        }
+        #nav-panel h3 { color: #00aaff; margin-bottom: 8px; font-size: 12px; }
+        
+        /* Alert */
+        #alert {
+            position: fixed; top: 80px; left: 50%; transform: translateX(-50%);
+            background: rgba(255,50,50,0.9); border: 2px solid #ff4444; border-radius: 8px;
+            padding: 15px 25px; display: none; z-index: 100;
+        }
+        #alert h3 { color: #fff; display: flex; align-items: center; gap: 10px; }
+        
+        /* Controls */
+        #controls {
+            position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%);
+            display: flex; gap: 8px; z-index: 10;
+        }
+        .btn {
+            background: rgba(0,100,150,0.8); border: 1px solid #00aaff; color: #fff;
+            padding: 8px 16px; border-radius: 5px; cursor: pointer; transition: all 0.3s;
+        }
+        .btn:hover { background: rgba(0,150,200,0.9); }
+        .btn.active { background: #00ff88; color: #000; }
+        
+        /* Radar */
+        #radar {
+            width: 100%; aspect-ratio: 1; background: radial-gradient(circle, #001a33, #000a14);
+            border-radius: 50%; border: 2px solid #00aaff; position: relative;
+        }
+        .ring {
+            position: absolute; border: 1px solid rgba(0,170,255,0.3); border-radius: 50%;
+            top: 50%; left: 50%; transform: translate(-50%, -50%);
+        }
+        
+        /* Scrollbar */
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-track { background: #1a1a2e; }
+        ::-webkit-scrollbar-thumb { background: #00aaff; border-radius: 3px; }
+    </style>
+</head>
+<body>
+    <div id="status">
+        <h2>🛰️ Ініціалізація</h2>
+        <div id="status-bar"><div id="status-progress"></div></div>
+        <div id="status-text">Завантаження...</div>
+    </div>
+    
+    <div id="container"></div>
+    
+    <div id="header">
+        <h1>🛰️ ОРБІТАЛЬНИЙ ІІ КАССІОПЕЇ</h1>
+        <div id="time-box">
+            <div>Час: <span id="time">00:00:00</span> | День: <span id="day">1</span>/20</div>
+        </div>
+    </div>
+    
+    <div class="panel" id="left-panel">
+        <div class="section">
+            <h3>⭐ Система Helios</h3>
+            <div class="row"><span class="label">Тип:</span><span class="value">Червоний карлик M</span></div>
+            <div class="row"><span class="label">Маса:</span><span class="value">0.2 M☉</span></div>
+            <div class="row"><span class="label">Світність:</span><span class="value">0.01 L☉</span></div>
+        </div>
+        <div class="section">
+            <h3>🟤 Ефір (бурий карлик)</h3>
+            <div class="row"><span class="label">Маса:</span><span class="value">50 MJ</span></div>
+            <div class="row"><span class="label">Відстань:</span><span class="value">10 AU</span></div>
+            <div class="row"><span class="label">Магнітне поле:</span><span class="value">4.5 кГ</span></div>
+        </div>
+        <div class="section">
+            <h3>🪐 Кронос (газовий гігант)</h3>
+            <div class="row"><span class="label">Маса:</span><span class="value">3 MJ</span></div>
+            <div class="row"><span class="label">Відстань:</span><span class="value">1.5 AU</span></div>
+            <div class="row"><span class="label">Період:</span><span class="value">505 днів</span></div>
+            <div class="row"><span class="label">Магнітне поле:</span><span class="value">10 G</span></div>
+        </div>
+        <div class="section">
+            <h3>🌍 Кассіопея</h3>
+            <div class="row"><span class="label">Маса:</span><span class="value">1.4 M⊕</span></div>
+            <div class="row"><span class="label">Гравітація:</span><span class="value">0.97 g</span></div>
+            <div class="row"><span class="label">Обертання:</span><span class="value">480 год</span></div>
+            <div class="row"><span class="label">Від Кроноса:</span><span class="value">3,063,206 км</span></div>
+        </div>
+    </div>
+    
+    <div class="panel" id="right-panel">
+        <div class="section">
+            <h3>🛰️ Орбітальна станція ІІ</h3>
+            <div class="row"><span class="label">Висота:</span><span class="value">600 км</span></div>
+            <div class="row"><span class="label">Період:</span><span class="value">105.2 хв</span></div>
+            <div class="row"><span class="label">Швидкість:</span><span class="value">8.22 км/с</span></div>
+            <div class="row"><span class="label">Потужність:</span><span class="value">180 кВт</span></div>
+            <div class="row"><span class="label">Панелі:</span><span class="value">278 м²</span></div>
+        </div>
+        <div class="section">
+            <h3>☄️ Метеорний захист</h3>
+            <div class="row"><span class="label">Радар:</span><span class="value">1,229 км</span></div>
+            <div class="row"><span class="label">Оптика:</span><span class="value">100,000 км</span></div>
+            <div class="row"><span class="label">Час попередження:</span><span class="value">0.7 хв</span></div>
+            <div class="row"><span class="label">Загрози:</span><span id="threats" class="value safe">0</span></div>
+        </div>
+        <div class="section">
+            <h3>📡 Рadar</h3>
+            <div id="radar">
+                <div class="ring" style="width:30%;height:30%"></div>
+                <div class="ring" style="width:60%;height:60%"></div>
+                <div class="ring" style="width:90%;height:90%"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="ai-status">
+        <h3><span class="indicator"></span> СТАТУС ІІ</h3>
+        <div class="row"><span class="label">Режим:</span><span class="value safe">АКТИВНИЙ</span></div>
+        <div class="row"><span class="label">Навігація:</span><span id="nav-status" class="value safe">ОНЛАЙН</span></div>
+        <div class="row"><span class="label">Захист:</span><span id="def-status" class="value safe">ГОТОВИЙ</span></div>
+        <div class="row"><span class="label">Корекція орбіти:</span><span id="correction" class="value">30 днів</span></div>
+    </div>
+    
+    <div id="nav-panel">
+        <h3>🚢 МОРСЬКА НАВІГАЦІЯ</h3>
+        <div class="row"><span class="label">Точність:</span><span class="value">1 м (DGPS)</span></div>
+        <div class="row"><span class="label">Прилив:</span><span id="tide" class="value">122 м</span></div>
+        <div class="row"><span class="label">Фаза:</span><span id="phase" class="value">Підйом</span></div>
+        <div class="row"><span class="label">Суден:</span><span id="vessels" class="value">10,000</span></div>
+    </div>
+    
+    <div id="alert">
+        <h3>⚠️ МЕТЕОРИТНА ЗАГРОЗА!</h3>
+        <div id="alert-details"></div>
+    </div>
+    
+    <div id="controls">
+        <button class="btn active" onclick="setView('system')">Система</button>
+        <button class="btn" onclick="setView('kronos')">Кронос</button>
+        <button class="btn" onclick="setView('cassiopeia')">Кассіопея</button>
+        <button class="btn" onclick="setView('station')">Станція</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script>
+        let scene, camera, renderer, controls;
+        let objects = {};
+        let simTime = 0;
+        let stationAngle = 0, cassAngle = 0, kronosAngle = 0;
+        
+        async function init() {
+            updateStatus('Створення сцени...', 10);
+            scene = new THREE.Scene();
+            scene.background = new THREE.Color(0x000510);
+            
+            camera = new THREE.PerspectiveCamera(60, innerWidth/innerHeight, 0.1, 10000);
+            camera.position.set(0, 30, 60);
+            
+            renderer = new THREE.WebGLRenderer({antialias: true});
+            renderer.setSize(innerWidth, innerHeight);
+            document.getElementById('container').appendChild(renderer.domElement);
+            
+            controls = new THREE.OrbitControls(camera, renderer.domElement);
+            controls.enableDamping = true;
+            
+            // Lights
+            scene.add(new THREE.AmbientLight(0x333333));
+            const sunLight = new THREE.PointLight(0xff4444, 2, 500);
+            sunLight.position.set(0, 0, 0);
+            scene.add(sunLight);
+            
+            updateStatus('Створення Helios...', 20);
+            const helios = new THREE.Mesh(
+                new THREE.SphereGeometry(2, 32, 32),
+                new THREE.MeshBasicMaterial({color: 0xff4444})
+            );
+            helios.userData = {name: 'HELIOS - Червоний карлик'};
+            scene.add(helios);
+            objects.helios = helios;
+            
+            updateStatus('Створення Ефіра...', 30);
+            const aether = new THREE.Mesh(
+                new THREE.SphereGeometry(0.8, 32, 32),
+                new THREE.MeshStandardMaterial({color: 0x8B4513, emissive: 0x331100})
+            );
+            aether.position.set(80, 5, 0);
+            aether.userData = {name: 'ЕФІР - Бурий карлик T8'};
+            scene.add(aether);
+            objects.aether = aether;
+            
+            updateStatus('Створення планет...', 40);
+            const planets = [];
+            const planetData = [
+                {d: 2, c: 0x888888}, {d: 3, c: 0xaa8866}, {d: 4, c: 0x886644},
+                {d: 6, c: 0x6688aa}, {d: 8, c: 0x88aacc}, {d: 11, c: 0xaabbcc}
+            ];
+            planetData.forEach((p, i) => {
+                const mesh = new THREE.Mesh(
+                    new THREE.SphereGeometry(0.3, 16, 16),
+                    new THREE.MeshStandardMaterial({color: p.c})
+                );
+                mesh.position.x = p.d;
+                mesh.userData = {distance: p.d, angle: Math.random() * Math.PI * 2, name: `Планета ${i+1}`};
+                scene.add(mesh);
+                planets.push(mesh);
+            });
+            objects.planets = planets;
+            
+            updateStatus('Створення Кроноса...', 50);
+            const kronosGroup = new THREE.Group();
+            const kronos = new THREE.Mesh(
+                new THREE.SphereGeometry(1.5, 32, 32),
+                new THREE.MeshStandardMaterial({color: 0x6688aa})
+            );
+            kronos.userData = {name: 'КРОНОС - Газовий гігант 3MJ'};
+            kronosGroup.add(kronos);
+            
+            // Kronos orbit
+            const kronosOrbit = new THREE.Mesh(
+                new THREE.RingGeometry(14.9, 15.1, 64),
+                new THREE.MeshBasicMaterial({color: 0x4466aa, transparent: true, opacity: 0.3, side: THREE.DoubleSide})
+            );
+            kronosOrbit.rotation.x = Math.PI / 2;
+            scene.add(kronosOrbit);
+            
+            kronosGroup.position.x = 15;
+            scene.add(kronosGroup);
+            objects.kronos = kronosGroup;
+            
+            updateStatus('Створення Кассіопеї...', 60);
+            const cassGroup = new THREE.Group();
+            
+            // Cassiopeia
+            const cass = new THREE.Mesh(
+                new THREE.SphereGeometry(0.5, 32, 32),
+                new THREE.MeshStandardMaterial({color: 0x4488ff})
+            );
+            cass.userData = {name: 'КАССІОПЕЯ - Суперземля 1.4M⊕'};
+            cassGroup.add(cass);
+            
+            // Cassiopeia atmosphere
+            const atm = new THREE.Mesh(
+                new THREE.SphereGeometry(0.55, 32, 32),
+                new THREE.MeshBasicMaterial({color: 0x88aaff, transparent: true, opacity: 0.2})
+            );
+            cassGroup.add(atm);
+            
+            // Station
+            updateStatus('Створення станції ІІ...', 70);
+            const station = new THREE.Group();
+            const stationBody = new THREE.Mesh(
+                new THREE.BoxGeometry(0.1, 0.05, 0.05),
+                new THREE.MeshStandardMaterial({color: 0x00ff88})
+            );
+            station.add(stationBody);
+            
+            // Station panels
+            const panelL = new THREE.Mesh(
+                new THREE.BoxGeometry(0.15, 0.01, 0.03),
+                new THREE.MeshStandardMaterial({color: 0x0066aa})
+            );
+            panelL.position.x = -0.1;
+            station.add(panelL);
+            
+            const panelR = panelL.clone();
+            panelR.position.x = 0.1;
+            station.add(panelR);
+            
+            station.position.set(0.9, 0, 0);
+            station.userData = {name: 'ОРБІТАЛЬНИЙ ІІ - Станція навігації'};
+            cassGroup.add(station);
+            objects.station = station;
+            
+            // Cassiopeia orbit around Kronos
+            const cassOrbit = new THREE.Mesh(
+                new THREE.RingGeometry(7.9, 8.1, 64),
+                new THREE.MeshBasicMaterial({color: 0x4488ff, transparent: true, opacity: 0.3, side: THREE.DoubleSide})
+            );
+            cassOrbit.rotation.x = Math.PI / 2;
+            kronosGroup.add(cassOrbit);
+            
+            cassGroup.position.x = 8;
+            kronosGroup.add(cassGroup);
+            objects.cassiopeia = cassGroup;
+            
+            updateStatus('Пояс астероїдів...', 80);
+            const astGeom = new THREE.BufferGeometry();
+            const astPos = [];
+            for (let i = 0; i < 300; i++) {
+                const a = Math.random() * Math.PI * 2;
+                const r = 12 + Math.random() * 2;
+                astPos.push(Math.cos(a) * r, (Math.random() - 0.5) * 0.5, Math.sin(a) * r);
+            }
+            astGeom.setAttribute('position', new THREE.Float32BufferAttribute(astPos, 3));
+            const astMat = new THREE.PointsMaterial({size: 0.1, color: 0x888888});
+            scene.add(new THREE.Points(astGeom, astMat));
+            
+            updateStatus('Зірки...', 90);
+            const starGeom = new THREE.BufferGeometry();
+            const starPos = [];
+            for (let i = 0; i < 2000; i++) {
+                const r = 200 + Math.random() * 300;
+                const theta = Math.random() * Math.PI * 2;
+                const phi = Math.acos(2 * Math.random() - 1);
+                starPos.push(r * Math.sin(phi) * Math.cos(theta), r * Math.sin(phi) * Math.sin(theta), r * Math.cos(phi));
+            }
+            starGeom.setAttribute('position', new THREE.Float32BufferAttribute(starPos, 3));
+            scene.add(new THREE.Points(starGeom, new THREE.PointsMaterial({size: 0.5, color: 0xffffff})));
+            
+            updateStatus('Готово!', 100);
+            setTimeout(() => document.getElementById('status').style.display = 'none', 500);
+            
+            setInterval(updateUI, 100);
+            setInterval(checkMeteor, 3000);
+            animate();
+        }
+        
+        function updateStatus(text, pct) {
+            document.getElementById('status-text').textContent = text;
+            document.getElementById('status-progress').style.width = pct + '%';
+        }
+        
+        function updateUI() {
+            simTime += 100;
+            const h = Math.floor((simTime % 86400) / 3600);
+            const m = Math.floor((simTime % 3600) / 60);
+            const s = simTime % 60;
+            document.getElementById('time').textContent = `${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+            document.getElementById('day').textContent = Math.floor(simTime / 86400) % 20 + 1;
+            
+            const tidePhase = (simTime / 864000) % 1;
+            const tide = 50 + 72 * Math.sin(tidePhase * Math.PI * 2);
+            document.getElementById('tide').textContent = tide.toFixed(0) + ' м';
+            
+            const phases = ['Підйом', 'Макс', 'Спад', 'Мін'];
+            document.getElementById('phase').textContent = phases[Math.floor(tidePhase * 4) % 4];
+            
+            const corr = 30 - Math.floor(simTime / 86400) % 30;
+            document.getElementById('correction').textContent = corr + ' днів';
+        }
+        
+        function checkMeteor() {
+            if (Math.random() > 0.9) {
+                document.getElementById('alert').style.display = 'block';
+                document.getElementById('threats').className = 'value danger';
+                document.getElementById('threats').textContent = '1';
+                setTimeout(() => {
+                    document.getElementById('alert').style.display = 'none';
+                    document.getElementById('threats').className = 'value safe';
+                    document.getElementById('threats').textContent = '0';
+                }, 3000);
+            }
+        }
+        
+        function animate() {
+            requestAnimationFrame(animate);
+            
+            stationAngle += 0.02;
+            if (objects.station) objects.station.position.x = 0.9 * Math.cos(stationAngle);
+            if (objects.station) objects.station.position.z = 0.9 * Math.sin(stationAngle);
+            
+            cassAngle += 0.003;
+            if (objects.cassiopeia) objects.cassiopeia.position.x = 8 * Math.cos(cassAngle);
+            if (objects.cassiopeia) objects.cassiopeia.position.z = 8 * Math.sin(cassAngle);
+            
+            kronosAngle += 0.0005;
+            if (objects.kronos) objects.kronos.position.x = 15 * Math.cos(kronosAngle);
+            if (objects.kronos) objects.kronos.position.z = 15 * Math.sin(kronosAngle);
+            
+            if (objects.planets) {
+                objects.planets.forEach(p => {
+                    p.userData.angle += 0.005 / p.userData.distance;
+                    p.position.x = p.userData.distance * Math.cos(p.userData.angle);
+                    p.position.z = p.userData.distance * Math.sin(p.userData.angle);
+                });
+            }
+            
+            controls.update();
+            renderer.render(scene, camera);
+        }
+        
+        function setView(v) {
+            document.querySelectorAll('.btn').forEach(b => b.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            if (v === 'system') { camera.position.set(0, 30, 60); controls.target.set(0, 0, 0); }
+            if (v === 'kronos' && objects.kronos) {
+                const p = new THREE.Vector3();
+                objects.kronos.getWorldPosition(p);
+                camera.position.set(p.x + 10, p.y + 5, p.z + 10);
+                controls.target.copy(p);
+            }
+            if (v === 'cassiopeia' && objects.cassiopeia) {
+                const p = new THREE.Vector3();
+                objects.cassiopeia.getWorldPosition(p);
+                camera.position.set(p.x + 3, p.y + 2, p.z + 3);
+                controls.target.copy(p);
+            }
+            if (v === 'station' && objects.station) {
+                const p = new THREE.Vector3();
+                objects.station.getWorldPosition(p);
+                camera.position.set(p.x + 0.5, p.y + 0.3, p.z + 0.5);
+                controls.target.copy(p);
+            }
+        }
+        
+        onresize = () => {
+            camera.aspect = innerWidth / innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(innerWidth, innerHeight);
+        };
+        
+        init();
+    </script>
+</body>
+</html>

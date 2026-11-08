@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="PlayerArchetypeProfile" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://resources/profiles/player_archetype_profile.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+archetype_name = "Резонатор-Редактор"
+archetype_class = "S"
+biomech_active = 0.3
+skeleton_density = 0.8
+muscle_density_modifier = 0.7
+metabolism_rate = 1.2
+atf_regen_modifier = 0.75
+carry_capacity_modifier = 1.0
+gravity_adaptation = 0.85
+cognitive_profile = 0.9
+rune_manipulation_power = 1.0
+l_logic_speed = 1.5
+stress_threshold_modifier = 0.6
+can_edit_reality_code = true
+can_see_blind_spots = false
+spatial_manipulator_range = 0.0

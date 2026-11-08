@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="PlayerArchetypeProfile" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://resources/profiles/player_archetype_profile.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+archetype_name = "Биомеханический Актив"
+archetype_class = "Σ"
+biomech_active = 0.95
+skeleton_density = 2.6
+muscle_density_modifier = 1.4
+metabolism_rate = 0.8
+atf_regen_modifier = 0.5
+carry_capacity_modifier = 2.0
+gravity_adaptation = 0.5
+cognitive_profile = 0.3
+rune_manipulation_power = 0.3
+l_logic_speed = 0.7
+stress_threshold_modifier = 1.5
+can_edit_reality_code = false
+can_see_blind_spots = false
+spatial_manipulator_range = 0.0

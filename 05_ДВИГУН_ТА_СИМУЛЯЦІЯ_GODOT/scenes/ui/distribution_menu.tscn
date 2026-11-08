@@ -1,0 +1,262 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/distribution_menu.gd" id="1"]
+
+[node name="DistributionMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="ArchetypePanel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 9
+anchor_bottom = 1.0
+offset_right = 200.0
+grow_vertical = 2
+
+[node name="Title" type="Label" parent="ArchetypePanel"]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 190.0
+offset_bottom = 30.0
+text = "Распределение"
+
+[node name="EditorButton" type="Button" parent="ArchetypePanel"]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 50.0
+offset_right = 190.0
+offset_bottom = 80.0
+text = "Резонатор-Редактор (S)"
+
+[node name="BiomechButton" type="Button" parent="ArchetypePanel"]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 90.0
+offset_right = 190.0
+offset_bottom = 120.0
+text = "Биомеханический Актив (Σ)"
+
+[node name="AnalystButton" type="Button" parent="ArchetypePanel"]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 130.0
+offset_right = 190.0
+offset_bottom = 160.0
+text = "Резонатор-Аналитик (P)"
+
+[node name="CustomButton" type="Button" parent="ArchetypePanel"]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 170.0
+offset_right = 190.0
+offset_bottom = 200.0
+text = "Кастомизировать"
+
+[node name="DescriptionPanel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -400.0
+offset_right = -200.0
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="DescriptionLabel" type="Label" parent="DescriptionPanel"]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 180.0
+offset_bottom = 200.0
+text = "Выберите архетип"
+
+[node name="StatsPreview" type="RichTextLabel" parent="DescriptionPanel"]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 210.0
+offset_right = 180.0
+offset_bottom = 500.0
+bbcode_enabled = true
+text = ""
+
+[node name="CustomPanel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -150.0
+offset_top = -200.0
+offset_right = 150.0
+offset_bottom = 200.0
+grow_horizontal = 2
+grow_vertical = 2
+visible = false
+
+[node name="BiomechSlider" type="HSlider" parent="CustomPanel"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 280.0
+offset_bottom = 40.0
+min_value = 0.0
+max_value = 1.0
+step = 0.05
+value = 0.5
+
+[node name="Label" type="Label" parent="CustomPanel/BiomechSlider"]
+layout_mode = 0
+offset_left = -200.0
+offset_top = -5.0
+offset_right = -10.0
+offset_bottom = 15.0
+text = "Биомеханика"
+
+[node name="CognitiveSlider" type="HSlider" parent="CustomPanel"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 50.0
+offset_right = 280.0
+offset_bottom = 70.0
+min_value = 0.0
+max_value = 1.0
+step = 0.05
+value = 0.5
+
+[node name="Label2" type="Label" parent="CustomPanel/CognitiveSlider"]
+layout_mode = 0
+offset_left = -200.0
+offset_top = -5.0
+offset_right = -10.0
+offset_bottom = 15.0
+text = "Когнитивный"
+
+[node name="SkeletonSlider" type="HSlider" parent="CustomPanel"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 80.0
+offset_right = 280.0
+offset_bottom = 100.0
+min_value = 0.5
+max_value = 3.0
+step = 0.1
+value = 1.0
+
+[node name="Label3" type="Label" parent="CustomPanel/SkeletonSlider"]
+layout_mode = 0
+offset_left = -200.0
+offset_top = -5.0
+offset_right = -10.0
+offset_bottom = 15.0
+text = "Плотность костей"
+
+[node name="MuscleSlider" type="HSlider" parent="CustomPanel"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 110.0
+offset_right = 280.0
+offset_bottom = 130.0
+min_value = 0.5
+max_value = 1.5
+step = 0.1
+value = 1.0
+
+[node name="Label4" type="Label" parent="CustomPanel/MuscleSlider"]
+layout_mode = 0
+offset_left = -200.0
+offset_top = -5.0
+offset_right = -10.0
+offset_bottom = 15.0
+text = "Мышечная сила"
+
+[node name="MetabolismSlider" type="HSlider" parent="CustomPanel"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 140.0
+offset_right = 280.0
+offset_bottom = 160.0
+min_value = 0.5
+max_value = 2.0
+step = 0.1
+value = 1.0
+
+[node name="Label5" type="Label" parent="CustomPanel/MetabolismSlider"]
+layout_mode = 0
+offset_left = -200.0
+offset_top = -5.0
+offset_right = -10.0
+offset_bottom = 15.0
+text = "Метаболизм"
+
+[node name="RuneSlider" type="HSlider" parent="CustomPanel"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 170.0
+offset_right = 280.0
+offset_bottom = 190.0
+min_value = 0.1
+max_value = 1.5
+step = 0.1
+value = 1.0
+
+[node name="Label6" type="Label" parent="CustomPanel/RuneSlider"]
+layout_mode = 0
+offset_left = -200.0
+offset_top = -5.0
+offset_right = -10.0
+offset_bottom = 15.0
+text = "Рунная мощь"
+
+[node name="LogicSlider" type="HSlider" parent="CustomPanel"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 200.0
+offset_right = 280.0
+offset_bottom = 220.0
+min_value = 0.5
+max_value = 2.0
+step = 0.1
+value = 1.0
+
+[node name="Label7" type="Label" parent="CustomPanel/LogicSlider"]
+layout_mode = 0
+offset_left = -200.0
+offset_top = -5.0
+offset_right = -10.0
+offset_bottom = 15.0
+text = "L-логика"
+
+[node name="StressSlider" type="HSlider" parent="CustomPanel"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 230.0
+offset_right = 280.0
+offset_bottom = 250.0
+min_value = 0.3
+max_value = 2.0
+step = 0.1
+value = 1.0
+
+[node name="Label8" type="Label" parent="CustomPanel/StressSlider"]
+layout_mode = 0
+offset_left = -200.0
+offset_top = -5.0
+offset_right = -10.0
+offset_bottom = 15.0
+text = "Порог стресса"
+
+[node name="ConfirmButton" type="Button" parent="CustomPanel"]
+layout_mode = 0
+offset_left = 100.0
+offset_top = 270.0
+offset_right = 200.0
+offset_bottom = 300.0
+text = "Подтвердить"
